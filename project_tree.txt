@@ -1,0 +1,31 @@
+Folder PATH listing for volume Windows
+Volume serial number is EA37-06AE
+C:.
+¦   .gitignore
+¦   full_file_list.txt
+¦   project_tree.txt
+¦   README.md
+¦   
++---backend
+¦   ¦   .env
+¦   ¦   package.json
+¦   ¦   README.md
+¦   ¦   server.js
+¦   ¦   
+¦   +---assessments
+¦   +---controllers
+¦   +---models
+¦   +---routes
++---frontend
+    ¦   .env
+    ¦   package.json
+    ¦   README.md
+    ¦   vite.config.js
+    ¦   
+    +---public
+    +---src
+        +---components
+        +---labs
+        +---reviews
+        +---styles
+        +---utils
