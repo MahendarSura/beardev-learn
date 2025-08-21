@@ -3,15 +3,12 @@ import React from "react";
 function App() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 font-sans">
-      
+
       {/* NAVBAR */}
       <nav className="flex items-center justify-between mb-12">
-        {/* Left - Beardev Learn heading */}
         <div className="text-5xl font-extrabold text-orange-500">
           Beardev Learn
         </div>
-
-        {/* Middle - Menu */}
         <ul className="hidden md:flex space-x-10 font-semibold text-gray-700">
           <li className="hover:text-orange-500 cursor-pointer">Home</li>
           <li className="hover:text-orange-500 cursor-pointer">Services</li>
@@ -19,31 +16,24 @@ function App() {
           <li className="hover:text-orange-500 cursor-pointer">About</li>
           <li className="hover:text-orange-500 cursor-pointer">Contact</li>
         </ul>
-
-        {/* Right - Login/Signup */}
         <div className="text-blue-600 font-semibold cursor-pointer hover:underline">
           Login/Signup
         </div>
       </nav>
 
-      {/* HERO SECTION inside royal blue box */}
+      {/* HERO SECTION */}
       <section className="bg-[#4169E1] p-10 rounded-lg text-white shadow-lg">
         <div className="flex flex-col md:flex-row items-center gap-8">
-          
-          {/* Left content */}
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl font-bold">
               Professional Certificate Program in Cloud Computing and DevOps
             </h1>
-
             <p className="text-lg">
               Cloud Computing can help unlock 46 million jobs by 2030. Enroll and find yourself in the driver’s seat of the next big revolution in tech.
             </p>
-
             <p className="text-lg">
               Gain real-world experience in cloud computing with AWS, Azure, and GCP, alongside DevOps training.
             </p>
-
             <div className="flex gap-4">
               <button className="bg-white text-[#4169E1] font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">
                 Talk to Career Expert
@@ -52,7 +42,6 @@ function App() {
                 Download Brochure
               </button>
             </div>
-
             <div className="mt-8 flex gap-8 text-center max-w-md">
               <div>
                 <h3 className="font-semibold text-xl">3 Tracks</h3>
@@ -68,8 +57,6 @@ function App() {
               </div>
             </div>
           </div>
-
-          {/* Right image */}
           <div className="flex-1">
             <img
               src="/cloud-devops-hero.png"
@@ -79,8 +66,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* The rest of your sections remain unchanged */}
 
       {/* Why Choose Us */}
       <section className="bg-gray-50 p-8 rounded mt-12">
@@ -165,6 +150,27 @@ function App() {
         </div>
       </section>
 
+      {/* Certification Info - Above Pricing */}
+      <section className="mt-16 max-w-5xl mx-auto px-6">
+        <h2 className="text-4xl font-extrabold mb-6 text-center">
+          Get certified by upGrad
+        </h2>
+        <div className="space-y-8 text-center text-gray-800">
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Industry-recognised certificate</h3>
+            <p>Validate your cloud and DevOps skills with a certificate from upGrad, trusted by top tech companies</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Global recognition</h3>
+            <p>Showcase your proficiency in cloud architecture and automation with a certificate that opens doors globally</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Career growth</h3>
+            <p>Leverage your certificate to secure roles with leading cloud-based companies.</p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing & CTA */}
       <section className="mt-12 bg-blue-600 text-white p-8 rounded max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Course Fee</h2>
@@ -174,16 +180,76 @@ function App() {
         </button>
       </section>
 
-      {/* Footer */}
-      <footer className="mt-12 text-center text-sm text-gray-500">
-        <p>
-          Disclaimer: The above statistics depend on various factors and individual results may vary. Past performance is no guarantee of future results.
+      {/* Guidance & Eligibility Box */}
+      <section className="mt-12 max-w-5xl mx-auto bg-white border rounded-lg shadow-lg p-8">
+        <h3 className="text-2xl font-bold mb-4 text-center">Need guidance? Talk to our career expert!</h3>
+        <p className="mb-6 text-center text-gray-700">
+          Get in touch with our program advisor & get your queries resolved.
         </p>
-        <p>
-          The student assumes full responsibility for all expenses associated with visas, travel, and related costs. Beardev-Learn does not cover these.
+
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 max-w-lg mx-auto">
+          <div className="text-center md:text-left">
+            <h4 className="font-semibold text-lg mb-2">Connect with us</h4>
+            <p className="text-gray-800">Reach out to our expert <span className="font-bold">0800-3410345</span></p>
+          </div>
+
+          <div className="w-full md:w-auto">
+            <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition w-full">
+              Find out if you're eligible
+            </button>
+          </div>
+        </div>
+
+        <form className="mt-6 max-w-md mx-auto space-y-4 text-gray-800">
+          <div className="flex items-center gap-3">
+            <span className="bg-gray-200 px-3 py-2 rounded-l border border-gray-300">+91</span>
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              className="flex-1 border border-gray-300 rounded-r px-4 py-2"
+              required
+            />
+          </div>
+          <div className="flex items-center">
+            <input type="checkbox" id="terms" className="mr-2" required />
+            <label htmlFor="terms" className="text-sm">
+              By clicking, I accept the <a href="#" className="text-blue-600 underline">T&C</a> and <a href="#" className="text-blue-600 underline">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" className="bg-blue-600 text-white w-full py-3 rounded hover:bg-blue-700 transition font-semibold">
+            Check eligibility
+          </button>
+        </form>
+
+        <div className="mt-8 text-center">
+          <h4 className="text-xl font-semibold mb-2">Ready to take the next step in your career?</h4>
+          <button className="bg-orange-500 text-white px-8 py-3 rounded hover:bg-orange-600 transition font-semibold">
+            Apply Now
+          </button>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="mt-12 max-w-5xl mx-auto px-6 text-center text-gray-800">
+        <h3 className="text-2xl font-bold mb-4">Disclaimer</h3>
+        <p className="mb-2 text-lg">
+          The above statistics depend on various factors and individual results may vary. Past performance is no guarantee of future results.
         </p>
-        <p className="mt-6 font-semibold">Beardev-Learn © 2025</p>
+        <p className="mb-2 text-lg">
+          The student assumes full responsibility for all expenses associated with visas, travel, & related costs. upGrad does not.
+        </p>
+        <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
+      </section>
+
+      {/* Footer Bottom Bar */}
+      <footer className="mt-12 bg-[#4169E1] py-8 text-center">
+        <h1 className="text-5xl font-extrabold text-orange-500">
+          Beardev Learn
+        </h1>
       </footer>
+
     </div>
   );
-} 
+}
+
+export default App;
