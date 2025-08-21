@@ -232,12 +232,72 @@ function App() {
         <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
       </section>
 
-      {/* Footer Bottom Bar */}
-      <footer className="mt-12 bg-[#4169E1] py-12 text-center">
-        <h1 className="text-5xl font-extrabold text-orange-500">Beardev Learn</h1>
-      </footer>
-    </div>
+            {/* Custom Footer */}
+      <footer className="bg-gray-900 text-white pt-12 pb-6 px-6 mt-16">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
+
+          {/* Left: Logo + Description */}
+          <div>
+            <h2 className="text-2xl font-extrabold text-orange-500 mb-4">beardev-learn</h2>
+            <p>
+              Empowering engineers and businesses with expert DevOps solutions, cloud automation, and career guidance — 100% remote.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
+            <ul className="space-y-2">
+              <li><a href="#" className="hover:underline">Home</a></li>
+              <li><a href="#" className="hover:underline">About</a></li>
+              <li><a href="#" className="hover:underline">Services</a></li>
+              <li><a href="#" className="hover:underline">Blogs</a></li>
+              <li><a href="#" className="hover:underline">Contact</a></li>
+            </ul>
+          </div>
+
+          {/* Our Key Services */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Our Key Services</h3>
+            <ul className="space-y-2">
+              <li>✦ DevOps Consultation</li>
+              <li>✦ Cloud Architecture Setup</li>
+              <li>✦ Resume & LinkedIn Optimization</li>
+              <li>✦ Mock Interviews & Mentorship</li>
+            </ul>
+          </div>
+
+          {/* Contact & Social */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
+            <p className="mb-1">beardevlearn@gmail.com</p>
+            <p className="mb-1">beardevlearn.in</p>
+            <p className="mb-4">Fully remote — available worldwide.</p>
+            <div className="flex space-x-4 mt-2">
+              <a href="#" aria-label="LinkedIn" className="hover:text-orange-400">
+                <i className="fab fa-linkedin fa-lg"></i>
+              </a>
+              <a href="#" aria-label="Twitter" className="hover:text-orange-400">
+                <i className="fab fa-twitter fa-lg"></i>
+              </a>
+              <a href="#" aria-label="Instagram" className="hover:text-orange-400">
+                <i className="fab fa-instagram fa-lg"></i>
+              </a>
+              <a href="#" aria-label="GitHub" className="hover:text-orange-400">
+                <i className="fab fa-github fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+              {/* Bottom Bar */}
+      <div className="mt-12 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+        © 2025 beardev-learn - All Rights Reserved.
+      </div>
+    </footer>
+  </div>
   );
 }
 
 export default App;
+
