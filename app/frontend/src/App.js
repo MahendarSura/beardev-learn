@@ -232,11 +232,15 @@ function App() {
         <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
       </section>
 
-            {/* Custom Footer */}
             <footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
-              <div className="w-full px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
-      
+              <div className="container mx-auto px-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
+                  {/* Your footer content columns */}
+                </div>
+              </div>
+            </footer>
 
+      
           {/* Left: Logo + Description */}
           <div>
             <h2 className="text-2xl font-extrabold text-orange-500 mb-4">beardev-learn</h2>
