@@ -233,9 +233,9 @@ function App() {
 
       {/* Footer Section */}
       <footer className="bg-[#4169E1] text-white pt-12 pb-6 mt-16 w-full">
-        <div> {/* removed px-6 here */}
+        <div> {/* No px-6 here, so no horizontal padding */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
-            {/* Footer content */}
+            {/* Your footer content */}
           </div>
 
             {/* Left: Logo + Description */}
