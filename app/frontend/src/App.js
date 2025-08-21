@@ -1,56 +1,82 @@
-import React from 'react';
+import React from "react";
 
 function App() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 font-sans">
       
-      {/* Beardev Learn heading top-left, big orange font */}
-      <h1 className="text-5xl font-extrabold text-orange-500 mb-12">
-        Beardev Learn
-      </h1>
-
-      {/* Hero Section */}
-      <section className="flex flex-col md:flex-row items-center gap-8 py-12">
-        <div className="flex-1">
-          <h1 className="text-4xl font-bold mb-4">
-            Professional Certificate Program in Cloud Computing and DevOps
-          </h1>
-          <p className="text-lg mb-6">
-            Cloud Computing can help unlock 46 million jobs by 2030. Enroll and find yourself in the driver’s seat of the next big revolution in tech.
-          </p>
-          <p className="text-lg mb-6">
-            Gain real-world experience in cloud computing with AWS, Azure, and GCP, alongside DevOps training.
-          </p>
-          <div className="flex gap-4">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
-              Talk to Career Expert
-            </button>
-            <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-50 transition">
-              Download Brochure
-            </button>
-          </div>
-          <div className="mt-8 flex gap-8 text-center">
-            <div>
-              <h3 className="font-semibold text-xl">3 Tracks</h3>
-              <p>Choose Your Path</p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">8 Months</h3>
-              <p>Program Duration</p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">31 Aug 2025</h3>
-              <p>Admission Deadline</p>
-            </div>
-          </div>
+      {/* NAVBAR */}
+      <nav className="flex items-center justify-between mb-12">
+        {/* Left - Beardev Learn heading */}
+        <div className="text-5xl font-extrabold text-orange-500">
+          Beardev Learn
         </div>
 
-        <div className="flex-1">
-          <img
-            src="/cloud-devops-hero.png"
-            alt="Cloud & DevOps Course"
-            className="rounded shadow-lg"
-          />
+        {/* Middle - Menu */}
+        <ul className="hidden md:flex space-x-10 font-semibold text-gray-700">
+          <li className="hover:text-orange-500 cursor-pointer">Home</li>
+          <li className="hover:text-orange-500 cursor-pointer">Services</li>
+          <li className="hover:text-orange-500 cursor-pointer">Courses</li>
+          <li className="hover:text-orange-500 cursor-pointer">About</li>
+          <li className="hover:text-orange-500 cursor-pointer">Contact</li>
+        </ul>
+
+        {/* Right - Login/Signup */}
+        <div className="text-blue-600 font-semibold cursor-pointer hover:underline">
+          Login/Signup
+        </div>
+      </nav>
+
+      {/* HERO SECTION inside royal blue box */}
+      <section className="bg-[#4169E1] p-10 rounded-lg text-white shadow-lg">
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          
+          {/* Left content */}
+          <div className="flex-1 space-y-6">
+            <h1 className="text-4xl font-bold">
+              Professional Certificate Program in Cloud Computing and DevOps
+            </h1>
+
+            <p className="text-lg">
+              Cloud Computing can help unlock 46 million jobs by 2030. Enroll and find yourself in the driver’s seat of the next big revolution in tech.
+            </p>
+
+            <p className="text-lg">
+              Gain real-world experience in cloud computing with AWS, Azure, and GCP, alongside DevOps training.
+            </p>
+
+            <div className="flex gap-4">
+              <button className="bg-white text-[#4169E1] font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">
+                Talk to Career Expert
+              </button>
+              <button className="border border-white px-6 py-3 rounded hover:bg-white hover:text-[#4169E1] transition">
+                Download Brochure
+              </button>
+            </div>
+
+            <div className="mt-8 flex gap-8 text-center max-w-md">
+              <div>
+                <h3 className="font-semibold text-xl">3 Tracks</h3>
+                <p>Choose Your Path</p>
+              </div>
+              <div>
+                <h3 className="font-semibold text-xl">8 Months</h3>
+                <p>Program Duration</p>
+              </div>
+              <div>
+                <h3 className="font-semibold text-xl">31 Aug 2025</h3>
+                <p>Admission Deadline</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right image */}
+          <div className="flex-1">
+            <img
+              src="/cloud-devops-hero.png"
+              alt="Cloud & DevOps Course"
+              className="rounded shadow-lg"
+            />
+          </div>
         </div>
       </section>
 
@@ -160,6 +186,4 @@ function App() {
       </footer>
     </div>
   );
-}
-
-export default App;
+} 
