@@ -3,7 +3,6 @@ import React from "react";
 function App() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 font-sans">
-
       {/* NAVBAR */}
       <nav className="flex items-center justify-between mb-12">
         <div className="text-5xl font-extrabold text-orange-500">Beardev Learn</div>
@@ -105,13 +104,13 @@ function App() {
             <p>Basics of Python syntax, control structures, functions, and scripting.</p>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-2">Course 1: Mastering AWS and DevOps (16 weeks)</h3>
+            <h3 className="text-xl font-bold mb-2">Course 1: Mastering AWS and DevOps (16 weeks)</h3>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-2">Course 2: Mastering Microsoft Azure (16 weeks)</h3>
+            <h3 className="text-xl font-bold mb-2">Course 2: Mastering Microsoft Azure (16 weeks)</h3>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-2">Course 3: Mastering Google Cloud Platform (5 weeks)</h3>
+            <h3 className="text-xl font-bold mb-2">Course 3: Mastering Google Cloud Platform (5 weeks)</h3>
           </div>
         </div>
       </section>
@@ -121,12 +120,12 @@ function App() {
         <h2 className="text-3xl font-semibold mb-6 text-center">Work on Real-World Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold mb-2">Mentorship Project I</h3>
+            <h3 className="font-semibold mb-2">Mentorship Project I</h3>
             <p>Automate database backup and restoration on AWS using Amazon RDS, Amazon S3, and Python scripting.</p>
           </div>
           <div className="bg-white p-6 rounded shadow">
-            <h3 className="font-semibold mb-2">Mentorship Project II</h3>
-            <p>Design a serverless e‑commerce application using AWS services.</p>
+            <h3 className="font-semibold mb-2">Mentorship Project II</h3>
+            <p>Design a serverless e-commerce application using AWS services.</p>
           </div>
         </div>
       </section>
@@ -155,7 +154,7 @@ function App() {
         </h2>
         <ul className="space-y-6 text-lg text-gray-700">
           <li>
-            <span className="font-semibold">• Industry‑recognised certificate</span><br />
+            <span className="font-semibold">• Industry-recognised certificate</span><br />
             Validate your cloud and DevOps skills with a certificate from Beardev-Learn, trusted by top tech companies.
           </li>
           <li>
@@ -164,7 +163,7 @@ function App() {
           </li>
           <li>
             <span className="font-semibold">• Career growth</span><br />
-            Leverage your certificate to secure roles with leading cloud‑based companies.
+            Leverage your certificate to secure roles with leading cloud-based companies.
           </li>
         </ul>
       </section>
@@ -172,7 +171,7 @@ function App() {
       {/* Pricing Section */}
       <section className="mt-12 bg-blue-600 text-white p-8 rounded max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Course Fee</h2>
-        <p className="text-xl mb-6">INR 80,000* (Inclusive of taxes)</p>
+        <p className="text-xl mb-6">INR 80,000* (Inclusive of taxes)</p>
         <button className="bg-white text-blue-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition">
           Apply Now
         </button>
@@ -189,7 +188,7 @@ function App() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 max-w-lg mx-auto mb-6">
           <div className="text-center md:text-left">
             <h4 className="text-lg font-semibold text-gray-800">Connect with us</h4>
-            <p className="text-gray-700">Reach out to our expert <strong>0800‑3410345</strong></p>
+            <p className="text-gray-700">Reach out to our expert <strong>0800-3410345</strong></p>
           </div>
           <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition w-full md:w-auto">
             Find out if you're eligible
@@ -220,9 +219,6 @@ function App() {
         </div>
       </section>
 
-     function App() {
-  return (
-    <div>
       {/* Disclaimer Section */}
       <section className="mt-12 max-w-5xl mx-auto px-6 text-center text-gray-800">
         <h3 className="text-2xl font-bold mb-4">Disclaimer</h3>
