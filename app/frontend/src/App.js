@@ -231,9 +231,10 @@ function App() {
         <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
       </section>
 
-      {/* Custom Footer */}
-      <footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
-        <div className="w-full px-6 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
+      {/* Footer Section */}
+      <footer className="bg-[#4169E1] text-white pt-12 pb-6 mt-16 w-full">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
 
             {/* Left: Logo + Description */}
             <div>
