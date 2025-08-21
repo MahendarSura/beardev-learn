@@ -3,6 +3,12 @@ import React from 'react';
 function App() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 font-sans">
+      
+      {/* Beardev Learn heading top-left, big orange font */}
+      <h1 className="text-5xl font-extrabold text-orange-500 mb-12">
+        Beardev Learn
+      </h1>
+
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center gap-8 py-12">
         <div className="flex-1">
@@ -47,6 +53,8 @@ function App() {
           />
         </div>
       </section>
+
+      {/* The rest of your sections remain unchanged */}
 
       {/* Why Choose Us */}
       <section className="bg-gray-50 p-8 rounded mt-12">
@@ -155,4 +163,3 @@ function App() {
 }
 
 export default App;
-
