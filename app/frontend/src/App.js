@@ -233,16 +233,8 @@ function App() {
 
       {/* Footer Section */}
       <footer className="bg-[#4169E1] text-white pt-12 pb-6 mt-16 w-full">
-        <div> {/* Outer div without padding */}
-          <div className="max-w-7xl mx-auto px-6"> {/* Inner container with max-width and padding */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
-              {/* Footer content here */}
-            </div>
-            {/* Close inner container div here */}
-          </div>
-        {/* Close outer div here */}
-        </div>
-      </footer>
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
 
             {/* Left: Logo + Description */}
             <div>
