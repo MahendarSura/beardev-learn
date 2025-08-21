@@ -232,9 +232,11 @@ function App() {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
-        <div className="container mx-auto px-6">
+      <footer className="bg-[#4169E1] text-white pt-12 pb-6 mt-16 w-full">
+        <div> {/* removed px-6 here */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
+            {/* Footer content */}
+          </div>
 
             {/* Left: Logo + Description */}
             <div>
