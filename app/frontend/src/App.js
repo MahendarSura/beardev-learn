@@ -234,7 +234,7 @@ function App() {
 
             {/* Custom Footer */}
             <footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm w-full max-w-full px-0">
+              <div className="w-full px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
       
 
           {/* Left: Logo + Description */}
