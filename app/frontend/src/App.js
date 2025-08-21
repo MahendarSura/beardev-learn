@@ -220,81 +220,89 @@ function App() {
         </div>
       </section>
 
-     {/* Disclaimer Section */}
-<section className="mt-12 max-w-5xl mx-auto px-6 text-center text-gray-800">
-  <h3 className="text-2xl font-bold mb-4">Disclaimer</h3>
-  <p className="mb-3 text-lg">
-    The above statistics depend on various factors and individual results may vary. Past performance is no guarantee of future results.
-  </p>
-  <p className="mb-3 text-lg">
-    The student assumes full responsibility for all expenses associated with visas, travel, & related costs. Beardev-Learn does not.
-  </p>
-  <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
-</section>
-
-{/* Footer Section */}
-<footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
-  <div className="container mx-auto px-6">
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
-
-      {/* Left: Logo + Description */}
-      <div>
-        <h2 className="text-2xl font-extrabold text-orange-500 mb-4">beardev-learn</h2>
-        <p>
-          Empowering engineers and businesses with expert DevOps solutions, cloud automation, and career guidance — 100% remote.
+     function App() {
+  return (
+    <div>
+      {/* Disclaimer Section */}
+      <section className="mt-12 max-w-5xl mx-auto px-6 text-center text-gray-800">
+        <h3 className="text-2xl font-bold mb-4">Disclaimer</h3>
+        <p className="mb-3 text-lg">
+          The above statistics depend on various factors and individual results may vary. Past performance is no guarantee of future results.
         </p>
-      </div>
+        <p className="mb-3 text-lg">
+          The student assumes full responsibility for all expenses associated with visas, travel, & related costs. Beardev-Learn does not.
+        </p>
+        <a href="#" className="text-blue-600 underline font-semibold">Read More</a>
+      </section>
 
-      {/* Quick Links */}
-      <div>
-        <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
-        <ul className="space-y-2">
-          <li><a href="#" className="hover:underline">Home</a></li>
-          <li><a href="#" className="hover:underline">About</a></li>
-          <li><a href="#" className="hover:underline">Services</a></li>
-          <li><a href="#" className="hover:underline">Blogs</a></li>
-          <li><a href="#" className="hover:underline">Contact</a></li>
-        </ul>
-      </div>
+      {/* Footer Section */}
+      <footer className="bg-gray-900 text-white pt-12 pb-6 mt-16 w-full">
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
 
-      {/* Our Key Services */}
-      <div>
-        <h3 className="text-lg font-semibold mb-3">Our Key Services</h3>
-        <ul className="space-y-2">
-          <li>✦ DevOps Consultation</li>
-          <li>✦ Cloud Architecture Setup</li>
-          <li>✦ Resume & LinkedIn Optimization</li>
-          <li>✦ Mock Interviews & Mentorship</li>
-        </ul>
-      </div>
+            {/* Left: Logo + Description */}
+            <div>
+              <h2 className="text-2xl font-extrabold text-orange-500 mb-4">beardev-learn</h2>
+              <p>
+                Empowering engineers and businesses with expert DevOps solutions, cloud automation, and career guidance — 100% remote.
+              </p>
+            </div>
 
-      {/* Contact & Social */}
-      <div>
-        <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-        <p className="mb-1">beardevlearn@gmail.com</p>
-        <p className="mb-1">beardevlearn.in</p>
-        <p className="mb-4">Fully remote — available worldwide.</p>
-        <div className="flex space-x-4 mt-2">
-          <a href="#" aria-label="LinkedIn" className="hover:text-orange-400">
-            <i className="fab fa-linkedin fa-lg"></i>
-          </a>
-          <a href="#" aria-label="Twitter" className="hover:text-orange-400">
-            <i className="fab fa-twitter fa-lg"></i>
-          </a>
-          <a href="#" aria-label="Instagram" className="hover:text-orange-400">
-            <i className="fab fa-instagram fa-lg"></i>
-          </a>
-          <a href="#" aria-label="GitHub" className="hover:text-orange-400">
-            <i className="fab fa-github fa-lg"></i>
-          </a>
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
+              <ul className="space-y-2">
+                <li><a href="#" className="hover:underline">Home</a></li>
+                <li><a href="#" className="hover:underline">About</a></li>
+                <li><a href="#" className="hover:underline">Services</a></li>
+                <li><a href="#" className="hover:underline">Blogs</a></li>
+                <li><a href="#" className="hover:underline">Contact</a></li>
+              </ul>
+            </div>
+
+            {/* Our Key Services */}
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Our Key Services</h3>
+              <ul className="space-y-2">
+                <li>✦ DevOps Consultation</li>
+                <li>✦ Cloud Architecture Setup</li>
+                <li>✦ Resume & LinkedIn Optimization</li>
+                <li>✦ Mock Interviews & Mentorship</li>
+              </ul>
+            </div>
+
+            {/* Contact & Social */}
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
+              <p className="mb-1">beardevlearn@gmail.com</p>
+              <p className="mb-1">beardevlearn.in</p>
+              <p className="mb-4">Fully remote — available worldwide.</p>
+              <div className="flex space-x-4 mt-2">
+                <a href="#" aria-label="LinkedIn" className="hover:text-orange-400">
+                  <i className="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="#" aria-label="Twitter" className="hover:text-orange-400">
+                  <i className="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="#" aria-label="Instagram" className="hover:text-orange-400">
+                  <i className="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="#" aria-label="GitHub" className="hover:text-orange-400">
+                  <i className="fab fa-github fa-lg"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="mt-12 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+            © 2025 beardev-learn - All Rights Reserved.
+          </div>
         </div>
-      </div>
-
+      </footer>
     </div>
+  );
+}
 
-    {/* Bottom Bar */}
-    <div className="mt-12 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-      © 2025 beardev-learn - All Rights Reserved.
-    </div>
-  </div>
-</footer>
+export default App;
